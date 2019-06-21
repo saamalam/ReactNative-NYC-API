@@ -1,5 +1,5 @@
 const config = {
-    ny_times_api_key: 'CVpfOWcCmGZPye4BHpwCG5XAk12YYcOi',
+    ny_times_api_key: 'CVpfOWcCmG23ZPye4BHpcccwCG5XAk324512YYcOi',
   };
   
   export default config;
