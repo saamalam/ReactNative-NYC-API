@@ -12,6 +12,8 @@ git clone https://github.com/saamalam/ReactNative-NYT-App.git
 
 # Install dependencies
 yarn install
+
+# Edit config.js file from root and put your New York Times Developer API
 ```
 ### 2. Run Development Server
 We are using [Expo](https://yarnpkg.com/en/) A free and open source toolchain built around React Native to help you build native iOS and Android apps using JavaScript and React.
