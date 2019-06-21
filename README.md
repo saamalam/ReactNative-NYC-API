@@ -19,28 +19,43 @@ yarn install
 We are using [Expo](https://yarnpkg.com/en/) A free and open source toolchain built around React Native to help you build native iOS and Android apps using JavaScript and React.
 
 ```bash
-# Run Expo
+# Install Expo CLI
+yarn global add expo-cli
+```
+
+```bash
+# Run Expo for web
 yarn run start
 ```
 Run this command to start the development server and to start your app on iOS simulator:
 
 ```bash
-# Run Expo
+# Run Expo for ios
 yarn run ios
 ```
 Or, if you prefer Android:
 
 ```bash
-# Run Expo
+# Run Expo for android
 yarn run android
 ```
 That's it! Cool Right?
 
-### 3. Usage
+### 3. Build App for Specific Devices
+
+```bash
+# build for android
+expo build: android
+
+#build for ios
+expo build: ios
+```
+
+### 4. Usage
 
 You need to install [Expo](https://yarnpkg.com/en/) client on your phone to test the app. Just scan the QR code on the expo app to test it.
 
-### 4. Testing with Jest
+### 5. Testing with Jest
 [Jest](https://jestjs.io/en/) is a delightful JavaScript Testing Framework with a focus on simplicity.
 
 ```bash
